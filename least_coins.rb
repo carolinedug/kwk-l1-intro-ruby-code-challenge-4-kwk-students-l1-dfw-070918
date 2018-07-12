@@ -22,6 +22,7 @@ end
   cents = cents - 1
 end
 
+puts least_coins(cents)
   
   
 
