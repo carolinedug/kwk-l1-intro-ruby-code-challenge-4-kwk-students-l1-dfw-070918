@@ -1,5 +1,5 @@
 def least_coins(cents)
-  cost_hash = {:quarters => 0,:dimes => 0, :nickles => 0, :penny => 0}
+  cost_hash = {:quarters => 0, :dimes => 0, :nickles => 0, :penny => 0}
   while cents >= 25
   cost_hash[:quarters] += 1
   cents = cents - 25
