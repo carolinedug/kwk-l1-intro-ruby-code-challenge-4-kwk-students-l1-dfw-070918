@@ -7,19 +7,19 @@ def least_coins(cents)
   while cents >= 10 
   cost_hash[:dimes] += 1 
   cents = cents - 10
-end
+  end
   while cents >= 5 
   cost_hash[:nickles] += 1 
   cents = cents - 5
-end
+  end
   while cents >= 1
   cost_hash[:pennies] += 1
   cents = cents - 1
-end
+  end
 return cost_hash
 end
 
-puts least_coins(cents)
+puts least_coins(29)
   
   
 
