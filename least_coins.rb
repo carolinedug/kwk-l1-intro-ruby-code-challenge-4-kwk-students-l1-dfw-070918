@@ -4,6 +4,7 @@ def least_coins(cents)
   cost_hash[:quarters]
   cost_hash += 1
   cents = cents - 25
+  end
 end 
   while(cents) >= 10 
   cost_hash[:dimes]
