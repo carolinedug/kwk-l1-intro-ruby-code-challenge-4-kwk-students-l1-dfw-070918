@@ -13,7 +13,7 @@ end
   cents = cents -5
 end
   while (cents) >= 1
-  cost_hash[:pennies] cost_hash+= 1
+  cost_hash[:pennies] cost_hashn += 1
   cents = cents
 end
 
