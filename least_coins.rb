@@ -13,12 +13,12 @@ end
   while(cents) >= 5 
   cost_hash[:nickles]
   cost_hash += 1 
-  cents = cents 5
+  cents = cents - 5
 end
   while(cents) >= 1
   cost_hash[:pennies]
   cost_hash += 1
-  cents = cents
+  cents = cents - 1
 end
 
   
